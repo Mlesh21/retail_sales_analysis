@@ -1,2 +1,37 @@
-# retail_sales_analysis
-In this mini-project, I performed a full analytics cycle independently to demonstrate my data analysis skills. The project includes data cleaning, exploratory data analysis, RFM customer segmentation, A/B testing, and data visualization using Python and Power BI. The goal was to show my abilities to handle real-world datasets.
+# Retail Store Sales Analysis
+
+## Описание проекта
+
+В этом мини-проекте я самостоятельно выполнил полный цикл аналитики данных, чтобы продемонстрировать свои навыки работы с данными.  
+Основные этапы проекта включают:
+
+- Очистку данных  
+- Исследовательский анализ (EDA)  
+- Построение RFM-сегментации клиентов (Recency, Frequency, Monetary)  
+- Проведение A/B теста для оценки влияния промокодов на средний чек  
+- Визуализацию данных в Power BI с интерактивными дашбордами
+
+Цель проекта — получить бизнес-инсайты на основе реальных данных о продажах и показать умение работать с разными инструментами аналитики (Python, pandas, seaborn, Power BI).
+
+## Структура репозитория
+
+- `retail_store_sales.csv` — исходные данные  
+- `df_cleaned.csv` — очищенные данные  
+- `RFM_table.csv` — таблица RFM-сегментации  
+- `top_5_quantity.csv` — топ-5 товаров по количеству продаж  
+- `top_5_revenue.csv` — топ-5 товаров по выручке  
+- `ab_test_results.csv` — результаты A/B теста  
+- `main.py` — основной скрипт на Python  
+- `retail_analysis.pbix` — Power BI отчет с визуализациями
+
+## Используемые технологии и библиотеки
+
+- Python (pandas, seaborn, matplotlib, scipy)  
+- Power BI  
+
+## Основные выводы и инсайты
+
+- Наиболее прибыльные и популярные товары  
+- Сегментация клиентов по активности и затратам  
+- Влияние промокодов на средний чек не оказалось статистически значимым  
+- Визуализация ключевых метрик и трендов для удобного принятия решений
